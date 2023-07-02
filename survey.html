@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="stylee.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Survey Questions</h1>
+    <form id="surveyForm" onsubmit="submitSurvey(event)">
+      <label for="hear-about">How did you first hear about our company/product/service?</label>
+      <input type="text" id="hear-about" required>
+
+      <label for="product-use">How often do you use our product/service?</label>
+      <input type="text" id="product-use" required>
+
+      <label for="recommendation">How likely are you to recommend our product/service to others?</label>
+      <input type="text" id="recommendation" required>
+
+      <label for="issues">Have you had any issues or difficulties while using our product/service? If yes, please describe.</label>
+      <textarea id="issues" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="scriptt.js"></script>
+</body>
+</html>
